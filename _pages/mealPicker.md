@@ -23,19 +23,19 @@ Not happy with your result? Click the button again to generate it afresh.
 
 #### Your next meal is...
 
-<div id="restaurantHTML">
+<h3 id="restaurantHTML">
 Click "Pick For Me" and see!
     <!-- Brand's appear here -->
-</div>
+</h3>
 
 #### A
 
-<div id="cuisineHTML">
+<h3 id="cuisineHTML">
 
 ### Click "Pick For Me" and see!
 
     <!-- Cuisine's appear here -->
-</div>
+</h3>
 
 #### Restaurant!
 
