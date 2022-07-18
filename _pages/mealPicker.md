@@ -40,4 +40,4 @@ Click "Pick For Me" and see!
 Coded by Shaun, all rights reserved.
 
 
-<script src="mealpicker.js"></script>
+<script src="../scripts/mealpicker.js"></script>
