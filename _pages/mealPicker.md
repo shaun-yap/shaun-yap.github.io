@@ -47,7 +47,7 @@ We hope you enjoy this!
 
 Coded by Shaun, all rights reserved.
 
-[Temporary Home Button]({% link _pages/index.md %})
+[Temporary Home Button]({% link /index.md %})
 
 
 <script src="../scripts/mealpicker.js"></script>

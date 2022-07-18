@@ -10,4 +10,4 @@ I'm working on both myself and this site. However if you'd like to get a better 
 
 
 
-[Temporary Home Button]({% link _pages/index.md %})
+[Temporary Home Button]({% link /index.md %})
