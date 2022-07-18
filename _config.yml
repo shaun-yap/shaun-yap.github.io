@@ -8,3 +8,5 @@ description: Shaun Yap's Github/Portfolio Page
 google_analytics: G-EHPGC3N6ET
 
 page_excerpts: true
+
+include: ["_pages","_includes"]
