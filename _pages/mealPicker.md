@@ -1,3 +1,8 @@
+---
+title: "The Restaurant Selector"
+permalink: "/mealpicker/"
+---
+
 # Shaun and Reyshmi's Restaurant Selector
 
 ### How it works
