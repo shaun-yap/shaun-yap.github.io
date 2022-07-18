@@ -13,8 +13,8 @@ var cuisine = [
 // It is very important that both restaurant and cuisine lines up properly!
 
 
-function pick() {
+function pickClick() {
     var randomRestaurant = Math.floor(Math.random() * (restaurant.length));
-    document.getElementById('restaurant').innerHTML = restaurant[randomRestaurant];
-    document.getElementById('cuisine').innerHTML = cuisine[randomRestaurant];
+    document.getElementById('restaurantHTML').innerHTML = restaurant[randomRestaurant];
+    document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
 }
