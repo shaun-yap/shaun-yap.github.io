@@ -23,21 +23,31 @@ Not happy with your result? Click the button again to generate it afresh.
 
 #### Your next meal is...
 
-<div id="restaurantHTML">
+### <div id="restaurantHTML">
 Click "Pick For Me" and see!
     <!-- Brand's appear here -->
 </div>
 
 #### A
 
-<div id="cuisineHTML">
+### <div id="cuisineHTML">
 Click "Pick For Me" and see!
     <!-- Cuisine's appear here -->
 </div>
 
+#### Restaurant!
+
 <button onclick="pickClick()">Pick For Me</button>
 
+***
+#### Acknowledgements
+Yes, halfway through writing the list, I decided to inject my own flair into it. At least, if you've don't know us in real life, you can get the gist of what the restaurants are.
+
+We hope you enjoy this!
+
 Coded by Shaun, all rights reserved.
+
+[Temporary Home Button]({% link _pages/index.md %})
 
 
 <script src="../scripts/mealpicker.js"></script>
