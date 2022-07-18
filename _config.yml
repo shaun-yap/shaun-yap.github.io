@@ -9,4 +9,4 @@ google_analytics: G-EHPGC3N6ET
 
 page_excerpts: true
 
-include: ["_pages","_includes"]
+# include: ["_pages","_includes"]
