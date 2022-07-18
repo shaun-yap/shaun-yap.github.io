@@ -9,8 +9,7 @@ google_analytics: G-EHPGC3N6ET
 
 page_excerpts: true
 
-include:
-  - _pages
+include: [_pages]
 
 defaults:
   - scope:
