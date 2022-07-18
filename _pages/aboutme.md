@@ -1,4 +1,4 @@
 ---
-permalink: /about-me/
+permalink: /aboutme.html/
 ---
 # About Me
