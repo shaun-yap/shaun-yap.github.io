@@ -6,4 +6,4 @@ Hi there, this is a work in progress. It kinda doubles as both a new portfolio s
 ^^^ My current work in progress ^^^
 
 ## About Me
-Hi there, here's the link : [About Me](/about-me)
+Hi there, here's the link : [About Me](/pages/aboutme.md)
