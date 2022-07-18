@@ -39,6 +39,7 @@ var cuisine = [
     'Fast Food/Western',
     'Fast Food/Western',
     'Malay',
+    'Malay',
     'Chinese',
     'Italian',
     'Japanese/Sushi',
