@@ -9,4 +9,4 @@ Hi there, this is a work in progress. It kinda doubles as both a new portfolio s
 Hi there, here's the link : [About Me]({% link _pages/aboutme.md %})
 
 ## Shaun and Reyshmi's Restaurant Picker
-Hi there, here's the link : [About Me]({% link _pages/mealpicker.md %})
+Hi there, here's the link : [About Me]({% link _pages/mealPicker.md %})
