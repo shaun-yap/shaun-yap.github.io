@@ -49,7 +49,7 @@ We hope you enjoy this!
 
 Coded by Shaun, all rights reserved.
 
-[Temporary Home Button]({% link /index.md %})
+<a href="/">Temporary Home Page</a>
 
 
 <script src="../scripts/mealpicker.js"></script>
