@@ -6,7 +6,7 @@ Hi there, this is a work in progress. It kinda doubles as both a new portfolio s
 ^^^ My current work in progress ^^^
 
 ## About Me
-Hi there, here's the link : [About Me]({% link _pages/aboutme.html %})
+Hi there, here's the link : [About Me]({% link _pages/aboutme.md %})
 
 ## Shaun and Reyshmi's Restaurant Picker
 Hi there, here's the link : [About Me]({% link _pages/mealpicker.md %})
