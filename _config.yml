@@ -1,1 +1,8 @@
 theme: jekyll-theme-cayman
+
+# Site Data
+title: Shaun Yap
+description: Shaun Yap's Github/Portfolio Page
+
+# Google Analytics/Tracking
+google_analytics: G-EHPGC3N6ET
