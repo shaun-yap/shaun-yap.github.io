@@ -32,7 +32,7 @@ Click "Pick For Me" and see!
 
 <h3 id="cuisineHTML">
 
-### Click "Pick For Me" and see!
+Click "Pick For Me" and see!
 
     <!-- Cuisine's appear here -->
 </h3>
