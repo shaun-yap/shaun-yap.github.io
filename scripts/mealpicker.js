@@ -65,9 +65,10 @@ var cuisine = [
 
 var foodDict = {
     Alpha: "Sierra",
-    Bravo: "Yangkee"
+    Bravo: "Yankee"
 }
 
+//var dictValue = foodDict.key;
 // It is very important that both restaurant and cuisine lines up properly!
 
 
@@ -85,7 +86,7 @@ function pickClickTesting() {
     document.getElementById('restaurantHTML').innerHTML = foodDict[randomDict];
 
     //Create a variable called dictKey
-    var dictKey = foodDict[randomDict];
+    var dictKey = foodDict.foodDict[randomDict];
 
     // And plug it in here
     document.getElementById('cuisineHTML').innerHTML = foodDict[dictKey];
