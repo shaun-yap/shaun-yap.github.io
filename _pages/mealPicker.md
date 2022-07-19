@@ -31,10 +31,7 @@ Click "Pick For Me" and see!
 <!-- #### A
 
 <h3 id="cuisineHTML">
-
-Click "Pick For Me" and see! (Unfortunately this does not work... yet.)
-
-    <!-- Cuisine's appear here -->
+Placeholder text for "Cuisine"
 </h3>
 
 #### Restaurant! -->
@@ -44,7 +41,7 @@ Click "Pick For Me" and see! (Unfortunately this does not work... yet.)
 <button onclick="pickClickJayaOne()">Jaya One + Vicinity Restaurants</button>
 
 
-<button onclick="pickClickTesting()">Do Not Click, this is for testing purposes</button>
+<!-- <button onclick="pickClickTesting()">Do Not Click, this is for testing purposes</button> -->
 
 
 ***
@@ -54,6 +51,9 @@ Click "Pick For Me" and see! (Unfortunately this does not work... yet.)
 Figuring out what to eat is... difficult. So we made this to do it for us. We plan to add major malls we frequent as well as the area around them. If you have a suggestion, tell us!
 
 We hope this helps and that you enjoy this!
+
+***
+
 <a href="/">Temporary Home Page</a>
 
 
