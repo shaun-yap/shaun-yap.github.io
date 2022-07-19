@@ -40,11 +40,11 @@ Click "Pick For Me" and see! (Unfortunately this does not work... yet.)
 #### Restaurant!
 
 <button onclick="pickClick()">Pick For Me (All Restaurants)</button>
-<button onclick="pickClickParadigm">Paradigm + Vicinity Restaurants</button>
-<button onclick="pickClickJayaOne">Jaya One _Vicinity Restaurants</button>
+<button onclick="pickClickParadigm()">Paradigm + Vicinity Restaurants</button>
+<button onclick="pickClickJayaOne()">Jaya One + Vicinity Restaurants</button>
 
 
-<button onclick="pickClickTesting()">Do Not Click, this is for testing</button>
+<button onclick="pickClickTesting()">Do Not Click, this is for testing purposes</button>
 
 
 ***
