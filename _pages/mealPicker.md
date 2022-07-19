@@ -3,7 +3,7 @@ title: "The Restaurant Selector"
 permalink: "/mealpicker/"
 ---
 
-# Shaun and Reyshmi's Restaurant Selector
+# The Restaurant Selector
 
 ### How it works
 Hi person who isn't us. If you're reading this section it means you either stumbled onto here, or one of us shared it with you. Here's how it works.
@@ -48,11 +48,12 @@ Click "Pick For Me" and see! (Unfortunately this does not work... yet.)
 
 
 ***
-#### Acknowledgements
-We hope you enjoy this!
 
-Coded by Shaun, all rights reserved.
+#### Why We Made This
 
+Figuring out what to eat is... difficult. So we made this to do it for us. We plan to add major malls we frequent as well as the area around them. If you have a suggestion, tell us!
+
+We hope this helps and that you enjoy this!
 <a href="/">Temporary Home Page</a>
 
 
