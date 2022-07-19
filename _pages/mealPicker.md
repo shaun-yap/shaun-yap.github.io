@@ -28,7 +28,7 @@ Click "Pick For Me" and see!
     <!-- Brand's appear here -->
 </h3>
 
-#### A
+<!-- #### A
 
 <h3 id="cuisineHTML">
 
@@ -37,7 +37,7 @@ Click "Pick For Me" and see! (Unfortunately this does not work... yet.)
     <!-- Cuisine's appear here -->
 </h3>
 
-#### Restaurant!
+#### Restaurant! -->
 
 <button onclick="pickClick()">Pick For Me (All Restaurants)</button>
 <button onclick="pickClickParadigm()">Paradigm + Vicinity Restaurants</button>
