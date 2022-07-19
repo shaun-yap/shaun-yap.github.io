@@ -32,20 +32,23 @@ Click "Pick For Me" and see!
 
 <h3 id="cuisineHTML">
 
-Click "Pick For Me" and see!
+Click "Pick For Me" and see! (Unfortunately this does not work... yet.)
 
     <!-- Cuisine's appear here -->
 </h3>
 
 #### Restaurant!
 
-<button onclick="pickClick()">Pick For Me</button>
+<button onclick="pickClick()">Pick For Me (All Restaurants)</button>
+<button onclick="pickClickParadigm">Paradigm + Vicinity Restaurants</button>
+<button onclick="pickClickJayaOne">Jaya One _Vicinity Restaurants</button>
+
+
 <button onclick="pickClickTesting()">Do Not Click, this is for testing</button>
+
 
 ***
 #### Acknowledgements
-Yes, halfway through writing the list, I decided to inject my own flair into it. At least, if you've don't know us in real life, you can get the gist of what the restaurants are.
-
 We hope you enjoy this!
 
 Coded by Shaun, all rights reserved.
