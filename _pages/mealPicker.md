@@ -40,6 +40,7 @@ Click "Pick For Me" and see!
 #### Restaurant!
 
 <button onclick="pickClick()">Pick For Me</button>
+<button onclick="pickClickTesting()">Do Not Click, this is for testing</button>
 
 ***
 #### Acknowledgements

@@ -63,6 +63,11 @@ var cuisine = [
     'AH AH AH WHO ASK YOU ADD REYSHMI INTO THE GENERATOR'
 ]
 
+var foodDict = {
+    Alpha: "Sierra",
+    Bravo: "Yangkee"
+}
+
 // It is very important that both restaurant and cuisine lines up properly!
 
 
@@ -70,4 +75,18 @@ function pickClick() {
     var randomRestaurant = Math.floor(Math.random() * (restaurant.length));
     document.getElementById('restaurantHTML').innerHTML = restaurant[randomRestaurant];
     document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
+}
+
+function pickClickTesting() {
+    // This creates a random number
+    var randomDict = Math.floor(Math.random() * (foodDict.length));
+
+    // We want to take the first 'key' from the dict
+    document.getElementById('restaurantHTML').innerHTML = foodDict[randomDict];
+
+    //Create a variable called dictKey
+    var dictKey = foodDict[randomDict];
+
+    // And plug it in here
+    document.getElementById('cuisineHTML').innerHTML = foodDict[dictKey];
 }
