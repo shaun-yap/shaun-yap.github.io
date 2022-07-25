@@ -396,6 +396,10 @@ var restaurantOneUtama = [
     'Shilin',
 ]
 
+function loadedFunction() {
+    document.getElementById('restaurantNumber').innerHTML = 'We\'ve got' + restaurant.length.toString() + 'added to the list and counting!';
+}
+
 function pickClick() {
     var randomRestaurant = Math.floor(Math.random() * (restaurant.length));
     document.getElementById('restaurantHTML').innerHTML = restaurant[randomRestaurant];
