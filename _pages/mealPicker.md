@@ -8,7 +8,7 @@ permalink: "/mealpicker/"
 
 #### Your next meal is...
 
-<h3 id="restaurantHTML">
+<h3 id="restaurantHTML" onload="loadedFunction()">
 Click "Pick For Me" and see!
     <!-- Brand's appear here -->
 </h3>
@@ -23,10 +23,14 @@ Placeholder text for "Cuisine"
 
 <button onclick="pickClick()">Pick For Me (All Restaurants)</button>
 
-<button onclick="pickClickParadigm()"  onload="loadedFunction()">Paradigm + Vicinity Restaurants</button>
+<button onclick="pickClickParadigm()">Paradigm + Vicinity Restaurants</button>
+
 <button onclick="pickClickJayaOne()">Jaya One + Vicinity Restaurants</button>
+
 <button onclick="pickClickOneUtama()">One Utama ONLY</button>
+
 <button onclick="pickClickStarling()">Starling ONLY</button>
+
 <button onclick="pickClickAtria()">Atria ONLY</button>
 
 
