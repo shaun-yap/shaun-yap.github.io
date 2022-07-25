@@ -196,7 +196,73 @@ var restaurant = [
     'Zhao Ji Chuan Cheng',
     'The Food District',
     'Melaka Corner',
-    'Shilin'
+    'Shilin',
+    //If you're adding, make sure you're adding to the group below as well.
+
+    // Starling
+    'Ah Cheng Laksa',
+    'Dave\'s Deli',
+    'Din Dou Duck and Hou Yum Duck',
+    'Jia Bao Bak Kut Teh',
+    'Kakatoo',
+    'Kam Kee Cafe',
+    'Lim Fried Chicken',
+    'Mala Jjiang Mala Ttang',
+    'Mitsuyado Xeimen',
+    'Mr Tuk Tuk',
+    'Nandos',
+    'Rakuzen',
+    'Red Kettle',
+    'Sala (Not yet opened in Starling)',
+    'Salad Atelier',
+    'Seppia and Polpol',
+    'Sopoong',
+    'Stuffd',
+    'Sukishi',
+    'Sushi Zanmai',
+    'Taiwan Spicy Noodle House',
+    'Teow Choo Lor',
+    'Two Sons Bistro',
+    'Uncle Soon Fried Rice',
+    'Warung Sizzling',
+    //If you're adding, make sure you're adding to the group below as well.
+
+    // Atria
+    'Boon Signature Roast Pork',
+    'Jin Xuan Hong Kong Dim Sum',
+    'Big Big Wanton Mee Rice',
+    'Good Taste',
+    'Boiling Mad Soup',
+    'Itek Itik',
+    'New Ipoh Ngar Choy Chicken Rice',
+    'Teow Chew Seafood Noodle House',
+    'The Bons Cafe',
+    'Go Thai',
+    'Goon Wa XO Fish Head Noodle',
+    'Spital Fields',
+    'Mr Fish Seafood Noodle',
+    'Oriental Musuem',
+    'Little Penang Cafe',
+    'Foo Ah Chin',
+    'Gastro Village',
+    'Moim Modern Korean Cuisine',
+    'Subway',
+    'Dynasty Dragon',
+    'Esquire Kitchen',
+    'Korean BBQ House',
+    'Li',
+    'Provisions',
+    'Michele\'s Kitchen',
+    'Restaurant Kampung Seafood Parit Jawa',
+    'Vary Pasta',
+    'Five Fingers Vegetarian Cafe',
+    'Fugu Japanese Fusion',
+    'The Chinatown',
+    'The Magic Wok',
+    'Kopitime Cafe',
+    'Tan Sen Izakaya',
+    'Chung Kee Claypot',
+    'Pallets and Pans'
     //If you're adding, make sure you're adding to the group below as well.
 
     // Next Area
@@ -413,11 +479,57 @@ var restaurantStarling = [
     'Sala (Not yet opened in Starling)',
     'Salad Atelier',
     'Seppia and Polpol',
-    ''
+    'Sopoong',
+    'Stuffd',
+    'Sukishi',
+    'Sushi Zanmai',
+    'Taiwan Spicy Noodle House',
+    'Teow Choo Lor',
+    'Two Sons Bistro',
+    'Uncle Soon Fried Rice',
+    'Warung Sizzling'
+]
+
+var restaurantAtria = [
+    'Boon Signature Roast Pork',
+    'Jin Xuan Hong Kong Dim Sum',
+    'Big Big Wanton Mee Rice',
+    'Good Taste',
+    'Boiling Mad Soup',
+    'Itek Itik',
+    'New Ipoh Ngar Choy Chicken Rice',
+    'Teow Chew Seafood Noodle House',
+    'The Bons Cafe',
+    'Go Thai',
+    'Goon Wa XO Fish Head Noodle',
+    'Spital Fields',
+    'Mr Fish Seafood Noodle',
+    'Oriental Musuem',
+    'Little Penang Cafe',
+    'Foo Ah Chin',
+    'Gastro Village',
+    'Moim Modern Korean Cuisine',
+    'Subway',
+    'Dynasty Dragon',
+    'Esquire Kitchen',
+    'Korean BBQ House',
+    'Li',
+    'Provisions',
+    'Michele\'s Kitchen',
+    'Restaurant Kampung Seafood Parit Jawa',
+    'Vary Pasta',
+    'Five Fingers Vegetarian Cafe',
+    'Fugu Japanese Fusion',
+    'The Chinatown',
+    'The Magic Wok',
+    'Kopitime Cafe',
+    'Tan Sen Izakaya',
+    'Chung Kee Claypot',
+    'Pallets and Pans'
 ]
 
 function loadedFunction() {
-    document.getElementById('restaurantNumber').innerHTML = 'We\'ve got' + restaurant.length.toString() + 'added to the list and counting!';
+    document.getElementById('restaurantNumber').innerHTML = 'We\'ve got ' + restaurant.length.toString() + ' added to the list and counting!';
 }
 
 function pickClick() {
@@ -441,5 +553,17 @@ function pickClickJayaOne() {
 function pickClickOneUtama() {
     var randomRestaurant = Math.floor(Math.random() * (restaurantOneUtama.length));
     document.getElementById('restaurantHTML').innerHTML = restaurantOneUtama[randomRestaurant];
+    // document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
+}
+
+function pickClickStarling() {
+    var randomRestaurant = Math.floor(Math.random() * (restaurantStarling.length));
+    document.getElementById('restaurantHTML').innerHTML = restaurantStarling[randomRestaurant];
+    // document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
+}
+
+function pickClickAtria() {
+    var randomRestaurant = Math.floor(Math.random() * (restaurantAtria.length));
+    document.getElementById('restaurantHTML').innerHTML = restaurantAtria[randomRestaurant];
     // document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
 }
