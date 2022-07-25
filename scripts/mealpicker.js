@@ -234,7 +234,7 @@ var restaurant = [
     'Good Taste',
     'Boiling Mad Soup',
     'Itek Itik',
-    'New Ipoh Ngar Choy Chicken Rice',
+    'New Ipoh Nga Choy Chicken Rice',
     'Teow Chew Seafood Noodle House',
     'The Bons Cafe',
     'Go Thai',
@@ -536,34 +536,40 @@ function pickClick() {
     var randomRestaurant = Math.floor(Math.random() * (restaurant.length));
     document.getElementById('restaurantHTML').innerHTML = restaurant[randomRestaurant];
     // document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
+    loadedFunction();
 }
 
 function pickClickParadigm() {
     var randomRestaurant = Math.floor(Math.random() * (restaurantParadigm.length));
     document.getElementById('restaurantHTML').innerHTML = restaurantParadigm[randomRestaurant];
     // document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
+    loadedFunction();
 }
 
 function pickClickJayaOne() {
     var randomRestaurant = Math.floor(Math.random() * (restaurantJayaOne.length));
     document.getElementById('restaurantHTML').innerHTML = restaurantJayaOne[randomRestaurant];
     // document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
+    loadedFunction();
 }
 
 function pickClickOneUtama() {
     var randomRestaurant = Math.floor(Math.random() * (restaurantOneUtama.length));
     document.getElementById('restaurantHTML').innerHTML = restaurantOneUtama[randomRestaurant];
     // document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
+    loadedFunction();
 }
 
 function pickClickStarling() {
     var randomRestaurant = Math.floor(Math.random() * (restaurantStarling.length));
     document.getElementById('restaurantHTML').innerHTML = restaurantStarling[randomRestaurant];
     // document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
+    loadedFunction();
 }
 
 function pickClickAtria() {
     var randomRestaurant = Math.floor(Math.random() * (restaurantAtria.length));
     document.getElementById('restaurantHTML').innerHTML = restaurantAtria[randomRestaurant];
     // document.getElementById('cuisineHTML').innerHTML = cuisine[randomRestaurant];
+    loadedFunction();
 }
