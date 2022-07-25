@@ -31,7 +31,7 @@ Placeholder text for "Cuisine"
 
 <button onclick="pickClickStarling()">Starling ONLY</button>
 
-<button onclick="pickClickAtria()">Atria ONLY</button>
+<button onclick="pickClickAtria()">Atria + Vicinity Restaurants</button>
 
 
 <!-- <button onclick="pickClickTesting()">Do Not Click, this is for testing purposes</button> -->
@@ -52,7 +52,7 @@ Hi person who isn't us. If you're reading this section it means you either stumb
 
 Not happy with your result? Click the button again to generate it afresh!
 
-<p id="restaurantNumber">Uh oh, this broke.</p>
+<p id="restaurantNumber">Psst! Click a button to see how many restaurants are in the list!</p>
 
 ***
 
