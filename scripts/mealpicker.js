@@ -396,6 +396,26 @@ var restaurantOneUtama = [
     'Shilin',
 ]
 
+var restaurantStarling = [
+    'Ah Cheng Laksa',
+    'Dave\'s Deli',
+    'Din Dou Duck and Hou Yum Duck',
+    'Jia Bao Bak Kut Teh',
+    'Kakatoo',
+    'Kam Kee Cafe',
+    'Lim Fried Chicken',
+    'Mala Jjiang Mala Ttang',
+    'Mitsuyado Xeimen',
+    'Mr Tuk Tuk',
+    'Nandos',
+    'Rakuzen',
+    'Red Kettle',
+    'Sala (Not yet opened in Starling)',
+    'Salad Atelier',
+    'Seppia and Polpol',
+    ''
+]
+
 function loadedFunction() {
     document.getElementById('restaurantNumber').innerHTML = 'We\'ve got' + restaurant.length.toString() + 'added to the list and counting!';
 }

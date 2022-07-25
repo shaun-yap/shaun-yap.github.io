@@ -45,6 +45,7 @@ Hi person who isn't us. If you're reading this section it means you either stumb
 
 Not happy with your result? Click the button again to generate it afresh!
 
+<button onclick="loadedFunction()">How many restaurants do you have?</button>
 <p id="restaurantNumber">Restaurants and counting!</p>
 
 ***
