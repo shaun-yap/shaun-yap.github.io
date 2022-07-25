@@ -2,6 +2,7 @@
 title: "The Restaurant Selector"
 permalink: "/mealpicker/"
 ---
+<script src="../scripts/mealpicker.js"></script>
 
 # The Restaurant Selector
 
@@ -22,9 +23,11 @@ Placeholder text for "Cuisine"
 
 <button onclick="pickClick()">Pick For Me (All Restaurants)</button>
 
-<button onclick="pickClickParadigm()">Paradigm + Vicinity Restaurants</button>
+<button onclick="pickClickParadigm()"  onload="loadedFunction()">Paradigm + Vicinity Restaurants</button>
 <button onclick="pickClickJayaOne()">Jaya One + Vicinity Restaurants</button>
 <button onclick="pickClickOneUtama()">One Utama ONLY</button>
+<button onclick="pickClickStarling()">Starling ONLY</button>
+<button onclick="pickClickAtria()">Atria ONLY</button>
 
 
 <!-- <button onclick="pickClickTesting()">Do Not Click, this is for testing purposes</button> -->
@@ -45,8 +48,7 @@ Hi person who isn't us. If you're reading this section it means you either stumb
 
 Not happy with your result? Click the button again to generate it afresh!
 
-<button onclick="loadedFunction()">How many restaurants do you have?</button>
-<p id="restaurantNumber">Restaurants and counting!</p>
+<p id="restaurantNumber">Uh oh, this broke.</p>
 
 ***
 
@@ -59,6 +61,3 @@ We hope this helps and that you enjoy this!
 ***
 
 <a href="/">Temporary Home Page</a>
-
-
-<script src="../scripts/mealpicker.js"></script>
