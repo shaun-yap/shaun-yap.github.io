@@ -39,6 +39,7 @@ Placeholder text for "Cuisine"
 <button onclick="pickClick()">Pick For Me (All Restaurants)</button>
 <button onclick="pickClickParadigm()">Paradigm + Vicinity Restaurants</button>
 <button onclick="pickClickJayaOne()">Jaya One + Vicinity Restaurants</button>
+<button onclick="pickClickOneUtama()">One Utama ONLY</button>
 
 
 <!-- <button onclick="pickClickTesting()">Do Not Click, this is for testing purposes</button> -->
